@@ -265,76 +265,104 @@ export default function HomePage() {
       </section>
 
 
-      <section id="contacto" className="section contact-section">
+      <section id="contacto" className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
+  <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+    <div>
+      <div className="text-sm uppercase tracking-[0.35em] text-[#B98A76]">
+        Contacto
+      </div>
+      <h2 className="mt-4 text-4xl font-black text-[#F5F5F4]">
+        Hablemos de su proyecto.
+      </h2>
+      <p className="mt-5 text-lg leading-8 text-white/70">
+        Compártenos tus requerimientos, dibujos o especificaciones y te
+        contactaremos para evaluar tu proyecto.
+      </p>
 
-        <div className="container">
-
-          <p className="eyebrow">
-            Contacto
-          </p>
-
-          <h2>
-            Hablemos de su proyecto.
-          </h2>
-
-          <div className="contact-list">
-
-            <div>
-              <strong>Correo</strong>
-              <p>hstech@gmail.com</p>
-            </div>
-
-            <div>
-              <strong>Teléfono</strong>
-              <p>+52 55 1190 5194</p>
-            </div>
-
-            <div>
-              <strong>Ubicación</strong>
-              <p>Querétaro y Ciudad de México</p>
-            </div>
-
+      <div className="mt-8 space-y-4 text-white/75">
+        <div>
+          <div className="text-sm uppercase tracking-[0.25em] text-[#B98A76]">
+            Correo
           </div>
-<form className="rounded-[2rem] border border-white/10 bg-[#1C1C1C] p-8">
-
-  <div className="grid gap-5 md:grid-cols-2">
-
-    <input
-      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
-      placeholder="Nombre"
-    />
-
-    <input
-      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
-      placeholder="Empresa"
-    />
-
-    <input
-      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
-      placeholder="Correo"
-    />
-
-    <input
-      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
-      placeholder="Teléfono"
-    />
-
-  </div>
-
-  <textarea
-    rows={6}
-    className="mt-5 w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
-    placeholder="Describe tu proyecto"
-  />
-
-  <button className="mt-6 rounded-full bg-[#8A1C1C] px-6 py-3 font-semibold text-white">
-    Enviar solicitud
-  </button>
-
-</form>
+          <div className="mt-1">hstech@gmail.com</div>
         </div>
 
-      </section>
+        <div>
+          <div className="text-sm uppercase tracking-[0.25em] text-[#B98A76]">
+            Teléfono
+          </div>
+          <div className="mt-1">+52 55 1190 5194</div>
+        </div>
+
+        <div>
+          <div className="text-sm uppercase tracking-[0.25em] text-[#B98A76]">
+            Ubicación
+          </div>
+          <div className="mt-1">Querétaro y Ciudad de México, México</div>
+        </div>
+      </div>
+    </div>
+
+    <form className="rounded-[2rem] border border-white/10 bg-[#1C1C1C] p-8">
+      <div className="grid gap-5 md:grid-cols-2">
+        <label className="block">
+          <span className="mb-2 block text-sm text-white/75">Nombre</span>
+          <input
+            className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white outline-none ring-0 transition placeholder:text-white/25 focus:border-[#B98A76]"
+            placeholder="Tu nombre"
+          />
+        </label>
+
+        <label className="block">
+          <span className="mb-2 block text-sm text-white/75">Empresa</span>
+          <input
+            className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white outline-none ring-0 transition placeholder:text-white/25 focus:border-[#B98A76]"
+            placeholder="Nombre de tu empresa"
+          />
+        </label>
+
+        <label className="block">
+          <span className="mb-2 block text-sm text-white/75">Correo</span>
+          <input
+            className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white outline-none ring-0 transition placeholder:text-white/25 focus:border-[#B98A76]"
+            placeholder="correo@empresa.com"
+          />
+        </label>
+
+        <label className="block">
+          <span className="mb-2 block text-sm text-white/75">Teléfono</span>
+          <input
+            className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white outline-none ring-0 transition placeholder:text-white/25 focus:border-[#B98A76]"
+            placeholder="Número de contacto"
+          />
+        </label>
+      </div>
+
+      <label className="mt-5 block">
+        <span className="mb-2 block text-sm text-white/75">
+          Proyecto o requerimiento
+        </span>
+        <textarea
+          rows={6}
+          className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white outline-none transition placeholder:text-white/25 focus:border-[#B98A76]"
+          placeholder="Describe la pieza, aplicación, material, volumen o necesidad"
+        />
+      </label>
+
+      <button
+        type="button"
+        className="mt-6 rounded-full bg-[#8A1C1C] px-6 py-3 font-semibold text-white transition hover:bg-[#A12222]"
+      >
+        Enviar solicitud
+      </button>
+
+      <p className="mt-4 text-sm text-white/45">
+        Nota: este formulario es visual por ahora.
+      </p>
+    </form>
+  </div>
+</section>
+
 
 
       <footer className="footer">
