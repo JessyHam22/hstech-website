@@ -276,3 +276,22 @@ img { max-width: 100%; }
   .form-card .full { grid-column: auto; }
   .footer-inner { flex-direction: column; }
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25D366;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  z-index: 999;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05);
+}
