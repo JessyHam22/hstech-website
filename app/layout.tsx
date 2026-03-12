@@ -2,9 +2,11 @@ import "./globals.css";
 
 export const metadata = {
   title: "HSTECH",
-  description: "Fabricación de piezas maquinadas CNC en Querétaro y CDMX",
+  description: "Manufactura de precisión",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
-
 export default function RootLayout({
   children,
 }: {
