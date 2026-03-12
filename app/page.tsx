@@ -1,4 +1,13 @@
-import { Clock, Wrench, CheckCircle, MapPin } from "lucide-react"
+import {
+  Clock,
+  Wrench,
+  CheckCircle,
+  MapPin,
+  Cog,
+  DraftingCompass,
+  Factory,
+  Layers
+} from "lucide-react"
 
 const services = [
   {
@@ -152,23 +161,32 @@ export default function HomePage() {
 
           <div className="grid-four cards">
 
-            {services.map((service) => (
+           {services.map((service, index) => {
 
-              <article key={service.title} className="card dark">
+  const icons = [
+    <Cog size={34} />,
+    <DraftingCompass size={34} />,
+    <Layers size={34} />,
+    <Factory size={34} />
+  ]
 
-                <div className="card-accent" />
+  return (
 
-                <h3>
-                  {service.title}
-                </h3>
+    <article key={service.title} className="card dark">
 
-                <p>
-                  {service.description}
-                </p>
+      <div className="card-accent icon">
+        {icons[index]}
+      </div>
 
-              </article>
+      <h3>{service.title}</h3>
 
-            ))}
+      <p>{service.description}</p>
+
+    </article>
+
+  )
+
+})}
 
           </div>
 
