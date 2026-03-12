@@ -299,6 +299,15 @@ export default function HomePage() {
 
       </footer>
 
-    </main>
+
+<a
+  href="https://wa.me/525511905194?text=Hola%20HSTECH,%20me%20gustaría%20cotizar%20una%20pieza%20maquinada"
+  className="whatsapp-button"
+  target="_blank"
+>
+  WhatsApp
+</a>
+
+</main>
   )
 }
