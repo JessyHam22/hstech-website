@@ -4,7 +4,7 @@ export const metadata = {
   title: "HSTECH",
   description: "Manufactura de precisión",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon2.png",
   },
 };
 export default function RootLayout({
