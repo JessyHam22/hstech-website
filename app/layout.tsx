@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "HSTECH",
   description: "Fabricación de piezas maquinadas CNC en Querétaro y CDMX",
