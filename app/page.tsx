@@ -295,7 +295,43 @@ export default function HomePage() {
             </div>
 
           </div>
+<form className="rounded-[2rem] border border-white/10 bg-[#1C1C1C] p-8">
 
+  <div className="grid gap-5 md:grid-cols-2">
+
+    <input
+      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
+      placeholder="Nombre"
+    />
+
+    <input
+      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
+      placeholder="Empresa"
+    />
+
+    <input
+      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
+      placeholder="Correo"
+    />
+
+    <input
+      className="w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
+      placeholder="Teléfono"
+    />
+
+  </div>
+
+  <textarea
+    rows={6}
+    className="mt-5 w-full rounded-2xl border border-white/10 bg-[#121212] px-4 py-3 text-white"
+    placeholder="Describe tu proyecto"
+  />
+
+  <button className="mt-6 rounded-full bg-[#8A1C1C] px-6 py-3 font-semibold text-white">
+    Enviar solicitud
+  </button>
+
+</form>
         </div>
 
       </section>
