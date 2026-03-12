@@ -45,20 +45,17 @@ const products = [
   {
     title: 'Bujes, ejes y flechas',
     text: 'Componentes para sistemas de soporte, transmisión y movimiento mecánico.',
-    image:
-      'https://images.unsplash.com/photo-1535551951406-a19828b0a76b?auto=format&fit=crop&w=1200&q=80',
+    image: '/bujes.jpg',
   },
   {
     title: 'Engranes y componentes especiales',
     text: 'Fabricación para reposición, integración en equipos o mejora de desempeño.',
-    image:
-      'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1200&q=80',
+    image: '/engranes.jpg',
   },
   {
     title: 'Prototipos y lotes productivos',
     text: 'Piezas funcionales para validación técnica, arranque de proyecto y producción programada.',
-    image:
-      'https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=1200&q=80',
+    image: '/prototipos.jpg',
   },
 ]
 
