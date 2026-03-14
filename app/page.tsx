@@ -329,6 +329,16 @@ export default function HomePage() {
 
         </div>
 
+        <div className="flex gap-6">
+  <a href="/privacidad" className="hover:text-white">
+    Aviso de privacidad
+  </a>
+
+  <a href="/terminos" className="hover:text-white">
+    Términos del sitio
+  </a>
+</div>
+
      </footer>
 
 <a
