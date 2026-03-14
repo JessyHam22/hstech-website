@@ -329,26 +329,7 @@ export default function HomePage() {
 
         </div>
 
-        <div className="flex gap-6">
-  <a href="/privacidad" className="hover:text-white">
-        <div className="flex gap-6 text-white/55">
-  <a
-    href="/privacidad"
-    className="transition hover:text-white"
-  >
-    Aviso de privacidad
-  </a>
-
-  <a href="/terminos" className="hover:text-white">
-  <a
-    href="/terminos"
-    className="transition hover:text-white"
-  >
-    Términos del sitio
-  </a>
-</div>
-
-     </footer>
+      </footer>
 <a
   href="https://wa.me/525511905194?text=Hola%20HSTECH,%20me%20gustaría%20cotizar%20una%20pieza%20maquinada"
   className="whatsapp-float"
