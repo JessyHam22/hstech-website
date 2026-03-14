@@ -315,37 +315,28 @@ export default function HomePage() {
 
 
 
-      <footer className="footer">
+     <footer className="border-t border-white/10 bg-[#101010]">
+  <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 text-sm text-white/55 lg:flex-row lg:items-center lg:justify-between lg:px-10">
 
-        <div className="container footer-inner">
+    <div>
+      <span className="font-bold tracking-[0.25em] text-[#E7E5E4]">
+        HSTECH
+      </span>{" "}
+      · Maquinado CNC para aplicaciones industriales
+    </div>
 
-          <p>
-            <strong>HSTECH</strong> · Maquinado CNC para aplicaciones industriales
-          </p>
+    <div className="flex gap-6">
+      <a href="/privacidad" className="transition hover:text-white">
+        Aviso de privacidad
+      </a>
 
-          <p>
-            © 2026 HSTECH. Todos los derechos reservados.
-          </p>
+      <a href="/terminos" className="transition hover:text-white">
+        Términos del sitio
+      </a>
+    </div>
 
-        </div>
-
-        <div className="flex gap-6 text-white/55">
-  <a
-    href="/privacidad"
-    className="transition hover:text-white"
-  >
-    Aviso de privacidad
-  </a>
-
-  <a
-    href="/terminos"
-    className="transition hover:text-white"
-  >
-    Términos del sitio
-  </a>
-</div>
-
-     </footer>
+  </div>
+</footer>
 
 <a
   href="https://wa.me/525511905194?text=Hola%20HSTECH,%20me%20gustaría%20cotizar%20una%20pieza%20maquinada"
